@@ -6,11 +6,11 @@ const port = 3000;
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-//  app.use(cors({
-//     origin: 'https://fairfoxeonnoida.online',
+ app.use(cors({
+    origin: 'https://amitbamboochickmaker.online',
      
      
-// }));
+}));
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
